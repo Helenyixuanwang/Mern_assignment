@@ -49,6 +49,13 @@
 }
 
 #formm {
+  width:400px;
   margin:auto;
   text-align: center;
+}
+
+.report-error {
+  width:400px;
+  height:10px;
+  margin:auto;
 }

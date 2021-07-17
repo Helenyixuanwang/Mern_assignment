@@ -90,12 +90,13 @@ const UserForm = (props) => {
                 <h3>Welcome, please submit the form.</h3> 
             }
             {/* first name error report here above first name input*/}
+            <div className="report-error">
              {
                     firstNameError ?
                     <span style={{ color:"red",textAlign:"right"}}>{ firstNameError }</span> :
                     ''
                 }
-          
+            </div>
             <div className="form-style">
            
                 <label style={{flex:"1"}} >First Name</label> 
@@ -103,35 +104,43 @@ const UserForm = (props) => {
                 
             </div>
             {/* last nanme error report here abvoe last name input */}
+            <div className="report-error">
             {
                     lastNameError ?
                     <span style={{ color:"red",textAlign:"right"}}>{ lastNameError }</span> :
                     ''
                 }
+                </div>
             <div className="form-style" >
                 <label style={{flex:"1"}}>Last Name</label> 
                 <input style={{flex:"2"}} type="text" value={lastName} onChange={ handleLastName } />
             </div>
             {/* email error */}
+            <div className="report-error">
                 {
                     emailError ?
                     <span style={{ color:"red",textAlign:"right"}}>{ emailError }</span> :
                     ''
                 }
+                </div>
             <div className="form-style">
                 <label style={{flex:"1"}}>Email Address: </label> 
                 <input style={{flex:"2"}} type="email" value={email} onChange={ handleEmail } />
             </div>
             {/* handle password, passwordConf input and match here */}
+            <div className="report-error">
+            
             {
                     passwordError  ?
                     <span style={{ color:"red",textAlign:"right"}}>{ passwordError }</span> :
                     ''
                 }
+            </div>
             <div className="form-style">
                 <label style={{flex:"1"}}>Password: </label>
                 <input style={{flex:"2"}} type="password" value={password} onChange={ handlePassword } />
             </div>
+            <div className="report-error">
             {
                     passwordConfError ?
                     <span style={{ color:"red",textAlign:"right"}}>{ passwordConfError }</span> :
@@ -139,6 +148,7 @@ const UserForm = (props) => {
                     
 
                 }
+            </div>
             <div className="form-style">
                 <label style={{flex:"1"}}>Confirm Password: </label>
                 <input style={{flex:"2"}} type="password" value={passwordConf} onChange={ handlePasswordConf } />
