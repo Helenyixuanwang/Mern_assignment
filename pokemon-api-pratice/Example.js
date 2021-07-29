@@ -7,7 +7,7 @@ const Example = (props) => {
         console.log("Hello");
         // fetch('https://swapi.dev/api/people')
         // fetch('https://pokeapi.co/api/v2/pokemon')
-        fetch('https://pokeapi.co/api/v2/pokemon?limit=800')
+        fetch('https://pokeapi.co/api/v2/pokemon?limit=807')
         .then(response => {
             return response.json()
         })
