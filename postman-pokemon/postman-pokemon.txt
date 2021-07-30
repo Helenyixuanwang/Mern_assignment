@@ -1,0 +1,49 @@
+1. https://pokeapi.co/api/v2/pokemon/25
+
+ "base_experience": 112,
+    "forms": [
+        {
+            "name": "pikachu",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/25/"
+        }
+    ],
+
+
+2. https://pokeapi.co/api/v2/pokemon/charmeleon
+
+ "base_experience": 142,
+    "forms": [
+        {
+            "name": "charmeleon",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/5/"
+        }
+
+3.  https://pokeapi.co/api/v2/pokemon/6
+
+  "base_experience": 240,
+    "forms": [
+        {
+            "name": "charizard",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/6/"
+        }
+    ],
+
+
+4. https://pokeapi.co/api/v2/pokemon/pidgeot
+
+"base_experience": 216,
+    "forms": [
+        {
+            "name": "pidgeot",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/18/"
+        }
+    ],
+
+5.https://pokeapi.co/api/v2/pokemon/422
+
+  "base_experience": 65,
+    "forms": [
+        {
+            "name": "shellos-west",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/422/"
+        },
