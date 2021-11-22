@@ -19,7 +19,7 @@ const initialState = {
   }
   
 }
-
+//action = { type:"...", payload:"..."}
 const reducer=(state, action) => {
   console.log("Inside reducer");
   switch(action.type) {
