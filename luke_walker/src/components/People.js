@@ -18,6 +18,8 @@ const People = (props) => {
         axios
           .get(response.data.homeworld)
           .then((homeworldRes) => {
+            console.log("printing homeworldRes");
+            console.log(homeworldRes)
             console.log(homeworldRes.data.name);
             setHomeworld(homeworldRes.data.name);
           })
@@ -27,7 +29,7 @@ const People = (props) => {
         console.log(err);
         setIsError(true);
       });
-  }, [props]);
+  }, [id]);
 
   const getHomeworldId = (homeworldURL) => {
     // check for 1 character ID
